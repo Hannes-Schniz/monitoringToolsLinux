@@ -26,14 +26,20 @@
 **Logfiles**
 
 ```
-[<Date(YYYY-mm-dd)|Time(%h%m%s)] [<ERR|WARN|INF>] <Message>
+[<Date(YYYY-mm-dd)|Time(HHMMSS)] [<ERR|WARN|INF>] <Message>
 ```
 
 **One line of the logfile should be considered one entry**. Entries should not span over multiple lines in the logfile.
 
 The file should always end in **.log**!
 
+The logfile should be named as follows:
+
+\<name of the application\>\_\<YYYYmmddHHMMSS\>.log
+
 Example:
+
+researchtool12_20000720071520.log
 
 ```
 [2000-07-20|071520] [ERR] Connection timeout
